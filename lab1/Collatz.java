@@ -3,7 +3,7 @@
  */
 public class Collatz {
 
-    /** Buggy implementation of nextNumber! */
+    /** return the next number of Collatz sequence */
     public static int nextNumber(int n) {
         if (n % 2 == 0) {
             n = n / 2;
